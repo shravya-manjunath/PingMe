@@ -1,0 +1,181 @@
+.continer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2px;
+    height: 100vh;
+}
+.whiteFont{
+    color: whitesmoke;
+}
+.margin16{
+    margin: 16px;
+}
+.margin14{
+    margin: 14px;
+}
+.margin5{
+    margin: 5px;
+}
+.padding2{
+    padding: 2px;
+}
+.padding5{
+    padding: 5px;
+}
+.width50{
+    width: 50%;
+}
+.width100{
+    width: 100%;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.form{
+    position: fixed;
+    left: 25%;
+    top: 25%;
+}
+.homediv{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    margin: 16px;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding: 5px;
+    width: 70%;
+    position: fixed;
+    left: 15%;
+    height: 95vh;
+}
+.borderRadius{
+    border-radius: 2em;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.nav h3{
+    margin: 0%;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+.image{
+    width: 5%;
+    border-radius: 50%;
+
+}
+.image img{
+    width: 100%;
+    border-radius: 50%;
+}
+.message{
+    position: fixed;
+    bottom: 5%;
+    width: inherit
+}
+.room{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.messageList{
+    width: 100%;
+    height:70vh;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    overflow-y: scroll;
+}
+.profile{
+    width: 3%;
+    border-radius: 50%;  
+}
+.message1{
+    display:flex;
+    justify-content: flex-start;
+}
+.self{
+    justify-content: flex-end;
+}
+.hover:hover{
+    transform: scale(1.01);
+}
+.imessage{
+    background-color: rgb(160, 216, 241);
+    color: white;
+    text-align: center;
+    margin: 16px;
+    border-radius: 25px;
+}
+.messageContiner{
+    border-radius: 15px;
+    display: block;
+    position: relative;
+    border: 1px solid black;
+    background-color: #d1f7c4;
+    max-width: 30%;
+}
+.mimage{
+    width:8%;
+    border-radius: 50%;
+
+}
+.header{
+    font-size: x-small;
+    margin: 0%;
+    color: white;
+}
+.body{
+    margin: 0%;
+}
+.self{
+    border-bottom-right-radius: 0px;
+    align-content: end;
+    margin-left: 68%;
+}
+.other{
+    border-bottom-left-radius: 0px;
+}
+.headerContiner{
+    display: flex;
+}
+.roomImage{
+    width: 10%;
+    border-radius: 50%;
+
+}
+.roomImage img{
+    width: 100%;
+    border-radius: 50%;
+}
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 922px) {
+    .homediv{
+        box-shadow:0%;
+        margin:0%;
+        padding: 5px;
+        width: 100%;
+        left: 0%;
+        height: 100%;
+        border-radius: 0px;
+    }
+    .mimage{
+        width:10%;
+    }
+}
+@media screen and (max-width: 530px) {
+    .mimage{
+        width:20%;
+    } 
+}
