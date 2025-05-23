@@ -26,4 +26,4 @@ PingMe is a chat application built with React and Socket.IO. This project allows
   ```
 ## Author
 
-  ### PRANAV G D
+  ### SHRAVYA M
